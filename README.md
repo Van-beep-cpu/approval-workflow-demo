@@ -1,5 +1,7 @@
 # Approval Workflow Demo
 
+Live: https://approval-workflow-demo.vercel.app
+
 A small, clickable demo of a role-based approval workflow. It runs entirely in the browser and uses sample data only.
 
 ## What it shows
