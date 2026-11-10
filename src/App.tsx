@@ -18,7 +18,9 @@ function Shell() {
   const rec = id ? records.find((r) => r.id === decodeURIComponent(id)) : undefined
 
   // Start every screen at the top, like a page navigation would.
-  useEffect(() => window.scrollTo(0, 0), [id])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [id])
 
   const onReset = () => {
     reset()
